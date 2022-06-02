@@ -8,7 +8,7 @@
 }
 
 html {
-    font-size: .8rem;
+    font-size: 1rem;
     font-family: 'Inter', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -19,19 +19,17 @@ html {
 }
 
 h1 {
-    font-size: 4rem;
-    letter-spacing: 1.6px;
-    margin-bottom: .5em;
+    font-size: 2.3rem;
 }
 
 h2 {
-    font-size: 2.3rem;
+    font-size: 1.4rem;
     letter-spacing: 1px;
     margin-bottom: .5em;
 }
 
 p {
-    font-size: 1.25rem;
+    font-size: 1rem;
     letter-spacing: 0.6px;
     margin-bottom: .5em;
     line-height: 1.5;
@@ -73,6 +71,7 @@ label, input {
     color: var(--primary-white-text);
     font-weight: 500;
     cursor: pointer;
+    text-align: center;
 }
 
 .btn-shaking {
@@ -82,10 +81,16 @@ label, input {
 /* Components */
 
 #hero {
-    min-width: fit-content;
     color: var(--primary-white-text);
     background-color: var(--primary-bg);
-    padding: 2em 4em;
+}
+
+.hero__text {
+    padding: 2em 1em 0 1em;
+}
+
+.hero__title {
+    margin-bottom: .5em;
 }
 
 .hero__title-span {
@@ -112,7 +117,7 @@ label, input {
     display: block;
     width: fit-content;
     letter-spacing: 1px;
-    font-size: 1.25rem;
+    font-size: 1rem;
     padding: .5em 2em;
     margin: 1em;
     background-color: hsl(118, 98%, 25%);
