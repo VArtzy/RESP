@@ -23,7 +23,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     letter-spacing: 1px;
     margin-bottom: .5em;
 }
@@ -86,7 +86,7 @@ label, input {
 }
 
 .hero__text {
-    padding: 2em 1em 0 1em;
+    padding: 2em 1em 0 1.5em;
 }
 
 .hero__title {
@@ -111,6 +111,7 @@ label, input {
 
 .hero__btns {
     display: flex;
+    padding-bottom: 1em;
 }
 
 .hero__btn {
