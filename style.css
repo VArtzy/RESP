@@ -118,7 +118,7 @@ label, input {
     display: block;
     width: fit-content;
     letter-spacing: 1px;
-    font-size: 1rem;
+    font-size: .9rem;
     padding: .5em 2em;
     margin: 1em;
     background-color: hsl(118, 98%, 25%);
